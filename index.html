@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aufgeladen</title>
+  <link rel="icon" href="https://priv.cdn.aufgeladen.dev/f659fc84675092bb2284fd2c39413616.png" type="image/x-icon" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.2/css/all.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Open Graph meta tags -->
+  <meta property="og:title" content="Aufgeladen">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="https://aufgeladen.dev">
+  <meta property="og:image" content="https://priv.cdn.aufgeladen.dev/f659fc84675092bb2284fd2c39413616.png">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Aufgeladen">
+</head>
+<body>
+  
+  <section class="animated-background">
+    <div id="stars1"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+  </section>
+  
+  <a id="profilePicture" href="#popup">
+    <img src="https://priv.cdn.aufgeladen.dev/f659fc84675092bb2284fd2c39413616.png" alt="Profile Picture">
+  </a>
+
+  <div class="overlay" id="popup">
+    <div class="popup">
+      <div class="popup-photo">
+        <iframe src="https://lanyard.cnrad.dev/api/747927665729732708" width="400" height="210"></iframe>
+      </div>
+      <div class="popup-quote"></div>
+      <a class="popup-close" onclick="history.back()">&times;</a>
+    </div>
+  </div>
+
+  <div id="userName">
+    Aufgeladen 🏳️‍🌈
+  </div>
+  <div id="links">
+    <a class="link" href="https://license.aufgeladen.dev" target="_blank">
+      <i class="fa-solid fa-section"></i> License / Legal infos
+    </a>
+    <a class="link" href="https://www.tiktok.com/@aufgeladen" target="_blank">
+      <i class="fab fa-tiktok"></i> Tiktok
+    </a>
+    <a class="link" href="https://github.com/aufgeladen" target="_blank">
+      <i class="fab fa-github"></i> Github
+    </a>
+    <a class="link" href="https://twitter.com/@aufge1aden" target="_blank">
+      <i class="fab fa-twitter"></i> Twitter
+    </a>
+    <a class="link" href="https://discord.com/users/747927665729732708" target="_blank">
+      <i class="fab fa-discord"></i> Discord
+    </a>
+    <a class="link" href="https://www.youtube.com/@aufgeladen" target="_blank">
+      <i class="fab fa-youtube"></i> Youtube
+    </a>
+    <a class="link" href="https://discord.gg/lunarmp" target="_blank"> 
+      <!-- <i class="fas fa-gamepad"></i> Project LunarFN -->
+    </a>
+    <a class="link" href="mailto:aufgeladen@aufgeladen.dev" target="_blank">
+      <i class="fa-regular fa-envelope"></i> Email
+    </a>
+    <a class="link" href="https://aufgeladen.github.io/school" target="_blank">
+       <!--  <i class="fa fa-gamepad"></i> <i class="fa-solid fa-chalkboard-user"></i>  Download Games in school! -->
+    </a>
+  </div>
+
+  <div id="hashtag">
+    <!-- Placeholder for text (idk looked cringe so temp remove) -->
+  </div>
+
+  <div id="questionButton">
+    <a href="https://github.com/Aufgeladen/aufgeladen.dev" title="source">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Aufgeladen</p>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+</body>
+</html>
